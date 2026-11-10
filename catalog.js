@@ -11,7 +11,6 @@ window.GAME_BOXES = [
     file: 'boxes/NewPal_1.html',
     cover: ''
   },
-window.GAME_BOXES = [
   {
     id: 'richman1',
     title: '大富翁1',
