@@ -10,15 +10,16 @@
 <div class="site-shell">
   <header class="topbar">
     <a class="brand" href="./" aria-label="遊戲盒典藏室首頁"><span class="brand-mark" aria-hidden="true">▣</span><span><strong>GAME BOX <em>ARCHIVE</em></strong><small>哈魯歐遊戲廳典藏室</small></span></a>
-    <div class="top-actions"><span class="top-status"><span class="status-light"></span> INTERACTIVE ARCHIVE</span><a class="tool-link" href="builder.html"><span aria-hidden="true">＋</span> 盒裝製作工坊</a></div>
+    <div class="top-actions"><span class="top-status"><span class="status-light"></span> INTERACTIVE ARCHIVE</span></div>
   </header>
   <div class="workarea">
     <aside class="sidebar" aria-label="遊戲收藏清單">
       <div class="side-heading"><div><div class="eyebrow">THE COLLECTION</div><h1>收藏目錄</h1></div><span id="totalBadge" class="total-badge">00</span></div>
       <label class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜尋遊戲名稱、年份、平台…" autocomplete="off" aria-label="搜尋遊戲收藏"><span class="search-key">/</span></label>
+      <div class="category-pills" id="categoryPills" aria-label="遊戲類型篩選"></div>
       <div class="filter-row"><label class="sr-only" for="platform">平台分類</label><select id="platform"><option value="all">所有平台</option></select><label class="sr-only" for="sort">排序</label><select id="sort"><option value="title">名稱排序</option><option value="year">年份排序</option><option value="new">最新加入</option></select></div>
-      <div class="list-heading"><span>遊戲清單</span><span id="resultCount">0 款</span></div>
-      <div id="list" class="game-list" aria-label="可選擇的遊戲盒"></div>
+      <div class="list-heading"><span>分類收藏 <small>點選展開或收合</small></span><span id="resultCount">0 款</span></div>
+      <div id="list" class="game-list" aria-label="可選擇的分類遊戲盒"></div>
       <div class="sidebar-foot"><div class="small-emblem">✧</div><p>每一個盒裝，都收藏著一段遊戲時光。</p><span>CURATED GAME BOX COLLECTION</span></div>
     </aside>
     <main class="main-panel" id="main">
