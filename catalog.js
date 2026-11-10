@@ -1,4 +1,4 @@
-// 由遊戲盒收藏管理頁自動產生；請勿重複宣告 window.GAME_BOXES
+// 遊戲盒收藏清單
 window.GAME_BOXES = [
   {
     "id": "NewPal_1",
@@ -18,17 +18,6 @@ window.GAME_BOXES = [
     "maker": "大宇資訊",
     "description": "1989年發售的第一款大富翁遊戲。",
     "file": "boxes/richman1.html",
-    "cover": ""
-  },
-  {
-    "id": "rich2",
-    "title": "test1",
-    "year": "1999",
-    "platform": "PC",
-    "category": "益智",
-    "maker": "大宇資訊",
-    "description": "",
-    "file": "boxes/rich2.html",
     "cover": ""
   }
 ];
