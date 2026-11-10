@@ -2,13 +2,13 @@
 // 注意：file 只能使用本站內的相對路徑，不支援任意外部網址。
 window.GAME_BOXES = [
   {
-    id: 'demo',
-    title: '示範遊戲盒（請替換）',
-    year: '展示範例',
+    id: 'NewPal_1',
+    title: '新仙劍奇俠傳:摯愛月如版',
+    year: 2001,
     platform: 'PC',
-    maker: '僅供操作測試',
-    description: '這是示範資料，不是真實遊戲收藏。你可以刪掉這筆，換成自己的盒裝 HTML。',
-    file: 'boxes/demo.html',
+    maker: '大宇資訊',
+    description: '2001年發售的經典國產角色扮演遊戲。',
+    file: 'boxes/NewPal_1.html',
     cover: ''
   }
 ];
