@@ -10,5 +10,16 @@ window.GAME_BOXES = [
     description: '2001年發售的經典國產角色扮演遊戲。',
     file: 'boxes/NewPal_1.html',
     cover: ''
+  },
+window.GAME_BOXES = [
+  {
+    id: 'richman1',
+    title: '大富翁1',
+    year: 1989,
+    platform: 'PC',
+    maker: '大宇資訊',
+    description: '1989年發售的第一款大富翁遊戲。',
+    file: 'boxes/richman1.html',
+    cover: ''
   }
 ];
